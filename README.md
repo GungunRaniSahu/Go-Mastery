@@ -5,7 +5,7 @@ Welcome to **Go Mastery** – a structured repository designed to help you learn
 ## 📂 Repository Structure
 ```
 go-mastery/
-│── 01-basics/             # Go fundamentals (syntax, data types, functions, etc.)
+│── 01-basics/             
 │    ├── hello.go
 │    ├── variables.go
 │    ├── loops.go
