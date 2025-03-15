@@ -82,7 +82,7 @@ go-mastery/
 1. Install Go: [Official Go Installation Guide](https://golang.org/doc/install)
 2. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/go-mastery.git
+   git clone https://github.com/your-username/Go-Mastery.git
    cd go-mastery
    ```
 3. Start exploring topics by running Go files:
