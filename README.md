@@ -83,7 +83,7 @@ go-mastery/
 2. Clone this repository:
    ```sh
    git clone https://github.com/your-username/Go-Mastery.git
-   cd go-mastery
+   cd Go-Mastery
    ```
 3. Start exploring topics by running Go files:
    ```sh
