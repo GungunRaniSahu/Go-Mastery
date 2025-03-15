@@ -89,7 +89,7 @@ go-mastery/
    ```
 3. Start exploring topics by running Go files:
    ```sh
-   go run 01-basics/hello.go
+   go run basics/hello.go
    ```
 
 ## 📌 Contributing
