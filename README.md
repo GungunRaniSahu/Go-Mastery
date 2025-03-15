@@ -52,7 +52,7 @@ go-mastery/
 │    │    ├── fibonacci_dp.go
 │    │    ├── knapsack.go
 │
-│── 04-concurrency/         # Practice with goroutines & channels
+│── 04-concurrency/         
 │    ├── goroutines.go
 │    ├── channels.go
 │    ├── mutex.go
