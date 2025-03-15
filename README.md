@@ -67,7 +67,7 @@ go-mastery/
 │    ├── rate-limiter.go
 │    ├── circuit-breaker.go
 │
-│── README.md               # This file
+│── README.md               
 ```
 
 ## 🚀 Learning Roadmap
