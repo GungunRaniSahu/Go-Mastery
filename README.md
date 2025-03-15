@@ -77,8 +77,6 @@ go-mastery/
 4. **Concurrency:** Explore goroutines, channels, and synchronization.
 5. **Web Development:** Build REST APIs and web servers using Go.
 6. **System Design:** Implement load balancers, rate limiters, and circuit breakers.
-7. **Projects:** Develop practical applications to reinforce learning.
-8. **Interview Prep:** Review Go memory model, best practices, and key comparisons.
 
 ## 🔧 Getting Started
 1. Install Go: [Official Go Installation Guide](https://golang.org/doc/install)
