@@ -40,7 +40,7 @@ go-mastery/
 │    │    ├── bfs.go
 │    │    ├── dfs.go
 │
-│── 03-competitive/         # Coding challenges (LeetCode, Codeforces, etc.)
+│── 03-competitive/         
 │    ├── arrays/
 │    │    ├── two_sum.go
 │    │    ├── rotate_array.go
