@@ -12,7 +12,7 @@ go-mastery/
 │    ├── functions.go
 │    ├── pointers.go
 │
-│── 02-dsa/                # Data Structures & Algorithms in Go
+│── 02-dsa/                
 │    ├── sorting/
 │    │    ├── bubble_sort.go
 │    │    ├── quick_sort.go
