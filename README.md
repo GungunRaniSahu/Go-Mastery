@@ -58,7 +58,7 @@ go-mastery/
 │    ├── mutex.go
 │    ├── worker_pool.go
 │
-│── 05-web-dev/             # Web applications with Go
+│── 05-web-dev/             
 │    ├── http-server.go
 │    ├── REST-API.go
 │
