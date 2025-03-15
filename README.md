@@ -62,7 +62,7 @@ go-mastery/
 │    ├── http-server.go
 │    ├── REST-API.go
 │
-│── 06-system-design/       # System design & microservices
+│── 06-system-design/       
 │    ├── load-balancer.go
 │    ├── rate-limiter.go
 │    ├── circuit-breaker.go
