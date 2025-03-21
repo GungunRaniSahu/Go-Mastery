@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 
-func QuickSort(arr []int) {
+func QuickSort(arr []int) 
+{
 	if len(arr) <= 1 {
 		return
 	}
