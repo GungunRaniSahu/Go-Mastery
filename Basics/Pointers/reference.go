@@ -2,13 +2,11 @@ package main
 
 import "fmt"
 
-func updateValue(n *int) 
-{
-    *n = 100 
+func updateValue(n *int) {
+    *n = 100
 }
 
-func main() 
-{
+func main() {
     num := 25
     fmt.Println("Before:", num)
     updateValue(&num)
