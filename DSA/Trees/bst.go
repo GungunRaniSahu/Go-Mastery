@@ -2,50 +2,51 @@ package tree
 
 import "fmt"
 
-type Node struct {
-	data  int
-	left  *Node
-	right *Node
+type BSTNode struct {  
+    data  int  
+    left  *BSTNode  
+    right *BSTNode  
 }
 
+
 type BST struct {
-	root *Node
+	root *BSTNode
 }
 
 func (bst *BST) Insert(data int) {
-	bst.root = insertRec(bst.root, data)
+	bst.root = InsertRec(bst.root, data)
 }
 
-func insertRec(root *Node, data int) *Node {
+func InsertRec(root *BSTNode, data int) *BSTNode {
 	if root == nil {
-		return &Node{data: data}
+		return &BSTNode{data: data}
 	}
 	if data < root.data {
-		root.left = insertRec(root.left, data)
+		root.left = InsertRec(root.left, data)
 	} else {
-		root.right = insertRec(root.right, data)
+		root.right = InsertRec(root.right, data)
 	}
 	return root
 }
 
 func (bst *BST) InOrder() {
-	inOrderRec(bst.root)
+	InOrderRec(bst.root)
 	fmt.Println()
 }
 
-func inOrderRec(root *Node) {
+func InOrderRec(root *BSTNode) {
 	if root != nil {
-		inOrderRec(root.left)
+		InOrderRec(root.left)
 		fmt.Print(root.data, " ")
-		inOrderRec(root.right)
+		InOrderRec(root.right)
 	}
 }
 
 func (bst *BST) Search(data int) bool {
-	return searchRec(bst.root, data)
+	return SearchRec(bst.root, data)
 }
 
-func searchRec(root *Node, data int) bool {
+func SearchRec(root *BSTNode, data int) bool {
 	if root == nil {
 		return false
 	}
@@ -53,9 +54,9 @@ func searchRec(root *Node, data int) bool {
 		return true
 	}
 	if data < root.data {
-		return searchRec(root.left, data)
+		return SearchRec(root.left, data)
 	}
-	return searchRec(root.right, data)
+	return SearchRec(root.right, data)
 }
 
 func BinarySearchTree() {

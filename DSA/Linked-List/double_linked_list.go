@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-type DNode struct { // Renamed struct for doubly linked list
+type DNode struct {
 	data int
 	prev *DNode
 	next *DNode

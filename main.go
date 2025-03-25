@@ -10,9 +10,9 @@ import (
 	"Go/DSA/Linked-List"
 	"Go/DSA/Searching"
 	"Go/DSA/Queue"
-	//"Go/DSA/Sorting"
-	//"Go/DSA/Stack"
-	//"Go/DSA/Trees"
+	"Go/DSA/Sorting"
+	"Go/DSA/Stack"
+	"Go/DSA/Trees"
 )
 
 func main() {
@@ -61,7 +61,18 @@ func main() {
 	fmt.Println("Calling Searching...")
 	searching.Binary()
 	searching.Linear()
+
+	fmt.Println("Calling Sorting...")
+	sorting.Bubble()
+	sorting.MergeSort()
+	sorting.Quick()
 	
+	fmt.Println("Calling Stack...")
+	stack.Stacks()
+
+	fmt.Println("Calling Trees...")
+	tree.BinaryTrees()
+	tree.BinarySearchTree()	
 
 
 }

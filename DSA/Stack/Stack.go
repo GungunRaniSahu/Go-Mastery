@@ -41,7 +41,7 @@ func (s *Stack) Size() int {
 }
 
 
-func Stack() {
+func Stacks() {
     stack := Stack{}
 
     stack.Push(10)

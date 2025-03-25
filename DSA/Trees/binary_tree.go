@@ -97,7 +97,7 @@ func searchRec(root *Node, data int) bool {
 	}
 }
 
-func Binary_Tree() {
+func BinaryTrees() {
 	bt := &BinaryTree{}
 	bt.Insert(50)
 	bt.Insert(30)
