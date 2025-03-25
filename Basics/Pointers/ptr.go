@@ -1,8 +1,8 @@
-package main
+package pointers
 
 import "fmt"
 
-func main() {
+func Ptr() {
     var num int = 20
     var ptr *int = &num
 

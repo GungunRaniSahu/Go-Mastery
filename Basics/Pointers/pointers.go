@@ -1,4 +1,4 @@
-package main
+package pointers
 
 import "fmt"
 
@@ -11,7 +11,7 @@ func changeAge(p *Person) {
     p.age = 30
 }
 
-func main() {
+func Pointers() {
     p := Person{"Gungun", 22}
     fmt.Println("Before:", p)
 

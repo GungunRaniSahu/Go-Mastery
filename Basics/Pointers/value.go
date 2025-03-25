@@ -1,8 +1,8 @@
-package main
+package pointers
 
 import "fmt"
 
-func main() {
+func Value() {
     num := 30
     ptr := &num
 

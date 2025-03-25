@@ -1,7 +1,7 @@
-package main
+package variables
 import "fmt"
 
-func main() {
+func Variables() {
     message := "Hello, Go!"  
     number := 42
     pi := 3.14

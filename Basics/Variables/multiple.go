@@ -1,9 +1,10 @@
-package main
+package variables
+
 import "fmt"
 
-func main() {
+func Multiples() {
     var a, b, c int = 1, 2, 3
     x, y := "Go", 3.14  
 
-    fmt.Println(a, b, c, x, y)
+    fmt.Println(a, b, c, x, y)
 }

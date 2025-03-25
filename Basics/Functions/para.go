@@ -1,4 +1,4 @@
-package main
+package functions
 
 import "fmt"
 
@@ -7,6 +7,6 @@ func add(a int, b int) {
     fmt.Println("Sum:", sum)
 }
 
-func main() {
+func Para() {
     add(5, 3)
 }

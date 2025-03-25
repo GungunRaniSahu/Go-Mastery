@@ -1,4 +1,4 @@
-package main
+package functions
 
 import "fmt"
 
@@ -10,6 +10,6 @@ func sum(numbers ...int) {
     fmt.Println("Sum:", total)
 }
 
-func main() {
+func Variadic() {
     sum(1, 2, 3, 4, 5) 
 }

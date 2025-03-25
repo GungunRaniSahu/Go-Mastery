@@ -1,4 +1,4 @@
-package main
+package functions
 
 import "fmt"
 
@@ -7,6 +7,6 @@ func greet() {
     fmt.Println("Hello, World!")
 }
 
-func main() {
+func Func() {
     greet() // Function call
 }

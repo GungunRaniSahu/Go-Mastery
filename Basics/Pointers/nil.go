@@ -1,8 +1,8 @@
-package main
+package pointers
 
 import "fmt"
 
-func main() {
+func Nil() {
     var ptr *int 
     fmt.Println("Pointer value:", ptr)
 

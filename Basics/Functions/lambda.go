@@ -1,8 +1,8 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
+func Lambda() {
     add := func(a int, b int) int {
         return a + b
     }
