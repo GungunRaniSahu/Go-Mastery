@@ -6,6 +6,13 @@ import (
 	"Go/Basics/Pointers"
 	"Go/Basics/Functions"
 	"Go/Basics/Variables"
+	"Go/DSA/Graph"
+	"Go/DSA/Linked-List"
+	"Go/DSA/Searching"
+	"Go/DSA/Queue"
+	//"Go/DSA/Sorting"
+	//"Go/DSA/Stack"
+	//"Go/DSA/Trees"
 )
 
 func main() {
@@ -40,4 +47,21 @@ func main() {
 	variables.Multiples()
 	variables.Var()
 	variables.Variables()
+
+	fmt.Println("Calling Graph...")
+	graph.BFS()
+
+	fmt.Println("Calling Linked-list...")
+	list.DoublyList()
+	list.SingleList()
+
+	fmt.Println("Calling Queue...")
+	queue.Queues()
+
+	fmt.Println("Calling Searching...")
+	searching.Binary()
+	searching.Linear()
+	
+
+
 }

@@ -1,24 +1,22 @@
-package main
+package list
 
 import (
 	"fmt"
 )
 
-
-type Node struct {
+type DNode struct { // Renamed struct for doubly linked list
 	data int
-	prev *Node
-	next *Node
+	prev *DNode
+	next *DNode
 }
 
-
 type DoublyLinkedList struct {
-	head *Node
+	head *DNode // Use DNode instead of Node
 }
 
 // InsertAtEnd adds a node at the end of the list
 func (dll *DoublyLinkedList) InsertAtEnd(data int) {
-	newNode := &Node{data: data}
+	newNode := &DNode{data: data}
 
 	if dll.head == nil {
 		dll.head = newNode
@@ -35,14 +33,14 @@ func (dll *DoublyLinkedList) InsertAtEnd(data int) {
 
 // InsertAtBeginning adds a node at the beginning of the list
 func (dll *DoublyLinkedList) InsertAtBeginning(data int) {
-	newNode := &Node{data: data, next: dll.head}
+	newNode := &DNode{data: data, next: dll.head}
 	if dll.head != nil {
 		dll.head.prev = newNode
 	}
 	dll.head = newNode
 }
 
-
+// DeleteNode removes a node by value
 func (dll *DoublyLinkedList) DeleteNode(data int) {
 	if dll.head == nil {
 		return
@@ -50,7 +48,6 @@ func (dll *DoublyLinkedList) DeleteNode(data int) {
 
 	temp := dll.head
 
-	
 	if temp.data == data {
 		dll.head = temp.next
 		if dll.head != nil {
@@ -59,17 +56,14 @@ func (dll *DoublyLinkedList) DeleteNode(data int) {
 		return
 	}
 
-	
 	for temp != nil && temp.data != data {
 		temp = temp.next
 	}
-
 
 	if temp == nil {
 		return
 	}
 
-	
 	if temp.next != nil {
 		temp.next.prev = temp.prev
 	}
@@ -78,7 +72,7 @@ func (dll *DoublyLinkedList) DeleteNode(data int) {
 	}
 }
 
-
+// DisplayForward prints the list from head to tail
 func (dll *DoublyLinkedList) DisplayForward() {
 	temp := dll.head
 	for temp != nil {
@@ -88,7 +82,7 @@ func (dll *DoublyLinkedList) DisplayForward() {
 	fmt.Println("nil")
 }
 
-
+// DisplayBackward prints the list from tail to head
 func (dll *DoublyLinkedList) DisplayBackward() {
 	if dll.head == nil {
 		fmt.Println("List is empty")
@@ -107,7 +101,7 @@ func (dll *DoublyLinkedList) DisplayBackward() {
 	fmt.Println("nil")
 }
 
-func main() {
+func DoublyList() {
 	dll := &DoublyLinkedList{}
 
 	dll.InsertAtEnd(10)

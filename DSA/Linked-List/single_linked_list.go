@@ -1,4 +1,4 @@
-package main
+package list
 
 import "fmt"
 
@@ -70,7 +70,7 @@ func (ll *LinkedList) Display() {
     fmt.Println("nil")
 }
 
-func main() {
+func SingleList() {
     ll := LinkedList{}
 
     ll.InsertAtEnd(10)

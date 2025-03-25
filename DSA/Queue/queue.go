@@ -1,4 +1,4 @@
-package main
+package queue
 
 import "fmt"
 
@@ -41,7 +41,7 @@ func (q *Queue) Size() int {
 }
 
 
-func main() {
+func Queues() {
     queue := Queue{}
 
     queue.Enqueue(10)

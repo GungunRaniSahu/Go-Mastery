@@ -1,15 +1,15 @@
-package main
+package searching
 
 import (
 	"fmt"
 )
 
 
-func binarySearch(arr []int, target int) int {
+func BinarySearch(arr []int, target int) int {
 	left, right := 0, len(arr)-1
 
 	for left <= right {
-		mid := left + (right-left)/2
+		mid := left + (right-left)
 
 		if arr[mid] == target {
 			return mid 
@@ -23,11 +23,11 @@ func binarySearch(arr []int, target int) int {
 	return -1 
 }
 
-func main() {
+func Binary() {
 	arr := []int{3, 9, 10, 27, 38, 43, 82} 
 	target := 27
 
-	result := binarySearch(arr, target)
+	result := BinarySearch(arr, target)
 
 	if result != -1 {
 		fmt.Printf("Element %d found at index %d\n", target, result)

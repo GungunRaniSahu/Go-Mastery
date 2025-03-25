@@ -1,4 +1,4 @@
-package main
+package graph
 
 import "fmt"
 
@@ -38,7 +38,7 @@ func (g *Graph) BFS(start int) {
 	}
 }
 
-func main() {
+func BFS() {
 	g := NewGraph(6)
 	g.AddEdge(0, 1)
 	g.AddEdge(0, 2)

@@ -1,4 +1,4 @@
-package main
+package stack
 
 import "fmt"
 
@@ -41,7 +41,7 @@ func (s *Stack) Size() int {
 }
 
 
-func main() {
+func Stack() {
     stack := Stack{}
 
     stack.Push(10)

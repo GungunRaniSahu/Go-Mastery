@@ -1,4 +1,4 @@
-package main
+package tree
 
 import (
 	"fmt"
@@ -97,7 +97,7 @@ func searchRec(root *Node, data int) bool {
 	}
 }
 
-func main() {
+func Binary_Tree() {
 	bt := &BinaryTree{}
 	bt.Insert(50)
 	bt.Insert(30)
