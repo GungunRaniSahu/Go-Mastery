@@ -7,5 +7,10 @@ import (
 
 func main() {
     fmt.Println("Calling loop functions...")
-    loops.ForLoop()
+    loops.ForAsWhile()
+	loops.For()
+	loops.ForInRange()
+	loops.Infinite()
+	loops.Nested()
+
 }
