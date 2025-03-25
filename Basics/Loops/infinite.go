@@ -2,7 +2,7 @@ package loops
 
 import "fmt"
 
-func main() {
+func Infinite() {
     for {
         fmt.Println("This will run forever!")
     }
