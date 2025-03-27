@@ -8,7 +8,8 @@ type Graphs struct {
 	adjList map[int][]int
 	visited map[int]bool
 }
-func NewGraph() *Graphs {
+
+func NewGraphs() *Graphs {
 	return &Graphs{
 		adjList: make(map[int][]int),
 		visited: make(map[int]bool),
@@ -33,9 +34,8 @@ func (g *Graphs) DFS(node int) {
 		}
 	}
 }
-
 func Dfs() {
-	graph := NewGraph()
+	graph := NewGraphs()
 
 	graph.AddEdge(0, 1)
 	graph.AddEdge(0, 2)
@@ -46,4 +46,4 @@ func Dfs() {
 
 	fmt.Print("DFS Traversal: ")
 	graph.DFS(0)
-}
+}  
