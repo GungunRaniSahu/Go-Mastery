@@ -4,22 +4,22 @@ import (
 	"fmt"
 )
 
-type Graph struct {
+type Graphs struct {
 	adjList map[int][]int
 	visited map[int]bool
 }
-func NewGraph() *Graph {
-	return &Graph{
+func NewGraph() *Graphs {
+	return &Graphs{
 		adjList: make(map[int][]int),
 		visited: make(map[int]bool),
 	}
 }
 
-func (g *Graph) AddEdge(u, v int) {
+func (g *Graphs) AddEdge(u, v int) {
 	g.adjList[u] = append(g.adjList[u], v)
 }
 
-func (g *Graph) DFS(node int) {
+func (g *Graphs) DFS(node int) {
 	if g.visited[node] {
 		return
 	}
