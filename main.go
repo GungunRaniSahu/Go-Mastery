@@ -50,6 +50,7 @@ func main() {
 
 	fmt.Println("Calling Graph...")
 	graph.BFS()
+	graph.Dfs()
 
 	fmt.Println("Calling Linked-list...")
 	list.DoublyList()
