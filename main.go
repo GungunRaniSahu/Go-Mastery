@@ -13,6 +13,7 @@ import (
 	"Go/DSA/Sorting"
 	"Go/DSA/Stack"
 	"Go/DSA/Trees"
+	"Go/Competitive"
 )
 
 func main() {
@@ -74,6 +75,9 @@ func main() {
 	fmt.Println("Calling Trees...")
 	tree.BinaryTrees()
 	tree.BinarySearchTree()	
+
+	fmt.Println("Calling Two Sum...")
+	array.Two_sum()
 
 
 }
