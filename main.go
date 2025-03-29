@@ -78,6 +78,6 @@ func main() {
 
 	fmt.Println("Calling Two Sum...")
 	array.Two_sum()
-
+	array.Rotate()
 
 }
