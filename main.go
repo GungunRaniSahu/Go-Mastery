@@ -14,6 +14,7 @@ import (
 	"Go/DSA/Stack"
 	"Go/DSA/Trees"
 	"Go/Competitive"
+	"Go/Strings"
 )
 
 func main() {
@@ -76,8 +77,10 @@ func main() {
 	tree.BinaryTrees()
 	tree.BinarySearchTree()	
 
-	fmt.Println("Calling Two Sum...")
+	fmt.Println("Calling competetive problems...")
 	array.Two_sum()
 	array.Rotate()
 
+	fmt.Println("Calling Strings...")
+	strings.Longest()
 }
