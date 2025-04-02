@@ -15,6 +15,8 @@ import (
 	"Go/DSA/Trees"
 	"Go/Competitive/Strings"
 	"Go/Competitive/dp"
+	"Go/Competitive/Arrays"
+
 )
 
 func main() {
@@ -84,6 +86,7 @@ func main() {
 	fmt.Println("Calling Strings...")
 	strings.Longest()
 
+	fmt.Println("Calling DP...")
 	dp.DP()
 
 
