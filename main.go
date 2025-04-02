@@ -13,8 +13,7 @@ import (
 	"Go/DSA/Sorting"
 	"Go/DSA/Stack"
 	"Go/DSA/Trees"
-	"Go/Competitive"
-	"Go/Strings"
+	"Go/Competitive/Strings"
 	"Go/Competitive/dp"
 )
 
