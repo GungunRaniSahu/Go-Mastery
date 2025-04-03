@@ -88,6 +88,7 @@ func main() {
 
 	fmt.Println("Calling DP...")
 	dp.DP()
+	dp.Knapsack()
 
 
 }
