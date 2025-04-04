@@ -93,6 +93,7 @@ func main() {
 
 	fmt.Println("Calling Concurrency...")
 	concurrency.Goroutines()
+	concurrency.Channels()
 
 
 }
