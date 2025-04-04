@@ -16,6 +16,7 @@ import (
 	"Go/Competitive/Strings"
 	"Go/Competitive/dp"
 	"Go/Competitive/Arrays"
+	"Go/Concurrency"
 
 )
 
@@ -89,6 +90,9 @@ func main() {
 	fmt.Println("Calling DP...")
 	dp.DP()
 	dp.Knapsack()
+
+	fmt.Println("Calling Concurrency...")
+	concurrency.Goroutines()
 
 
 }
