@@ -17,7 +17,6 @@ import (
 	"Go/Competitive/dp"
 	"Go/Competitive/Arrays"
 	"Go/Concurrency"
-
 )
 
 func main() {
@@ -94,6 +93,6 @@ func main() {
 	fmt.Println("Calling Concurrency...")
 	concurrency.Goroutines()
 	concurrency.Channels()
-
+	concurrency.Mutex()
 
 }
